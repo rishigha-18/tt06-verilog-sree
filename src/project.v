@@ -20,7 +20,7 @@ module tt_um_HA (
   //assign uo_out  = ui_in + uio_in;  // Example: ou_out is the sum of ui_in and uio_in
     assign ui_in[7:2]=6'b000000;
     assign ui_out[7:2]=6'b000000;
-    assign ui0_in=0;
+    assign uio_in=0;
     
   assign uio_out = 0;
   assign uio_oe  = 0;
